@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "codenamesSpymaster",
+    "style": "scss",
+    "postcss": true
+  }
+}

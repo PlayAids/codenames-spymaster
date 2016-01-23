@@ -1,0 +1,33 @@
+.gameboard-component {
+  .gameboard {
+  	width: 80%;
+  	margin: 50px auto;
+  	list-style: none;
+  	padding-left: 0;
+  	&:after {
+			visibility: hidden;
+			display: block;
+			content: "";
+			clear: both;
+			height: 0;
+		}
+  }
+  .gameboard__square {
+  	width: 20%;
+  	height: 0;
+  	padding-bottom: 20%;
+  	float: left;
+  	&.R {
+  		background-color: #aa0000;
+  	}
+  	&.B {
+  		background-color: #0000aa;
+  	}
+  	&.N {
+  		background-color: #aaaa66;
+  	}
+  	&.A {
+  		background-color: #333333;
+  	}
+  }
+}
